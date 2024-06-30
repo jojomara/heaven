@@ -1,0 +1,132 @@
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: PINK;
+}
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color:pink;
+	text-decoration: none;
+
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:25px;
+}
+
+section {
+	background-color:pink;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px orangered ;
+}
+
+h1 {
+	color: whitesmoke;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid yellowgreen;
+}
+
+textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: PINK;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #444;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	clear: both;
+}
+#paral {
+	text-align: center;
+	color:black;
+}
+.odd{
+	text-align: justify;
+	color:navy;
+	font-style: italic;
+}
+.boo{
+	text-align: justify;
+	color:navy;
+	font-style: italic;
+
+}
+#yoo{
+	text-align: center;
+	color:black;
+}
+#koo{
+	text-align: center;
+	color:black;
+}
+.noo{
+	text-align: justify;
+	color:navy;
+	font-style: italic;
+}

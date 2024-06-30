@@ -1,0 +1,134 @@
+	<main>
+		<section id="home">
+			<h1>Welcome to Cyber Security Company</h1>
+			<p>We provide top-notch cyber security solutions to protect your business from cyber threats.</p>
+		</section>
+		<section id="about">
+			<h1>About Us</h1>
+			<p>We are a team of experienced cyber security professionals dedicated to providing the best security solutions.</p>
+		</section>
+		<section id="services">
+			<h1>Services</h1>
+			<ul>
+				<li>Penetration Testing</li>
+				<li>Vulnerability Assessment</li>
+				<li>Incident Response</li>
+				<li>Security Consulting</li>
+			</ul>
+		</section>
+		<section id="contact">
+			<h1>Contact Us</h1>
+			<p>Get in touch with us to learn more about our services and how we can help you.</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br><br>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Cyber Security Company</p>
+	</footer>
+</body>
+</html>
+
+CSS (in style.css file):
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #5f28e0;
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #b3db14;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+section {
+	background-color: #cf08ae;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	color: #333;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #444;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	clear: both;
+}
